@@ -1,12 +1,14 @@
-import './App.css'
+import BasicButtons from "./components/BasicButtons";
+import ShoppingBadge from "./components/wagonIcon";
+import "./App.css";
 
 function App() {
-
   return (
     <>
-      <div>hello !</div>
+      <ShoppingBadge />
+      <BasicButtons />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
